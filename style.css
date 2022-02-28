@@ -92,3 +92,28 @@ h1 {
 #carouselExampleCaptions {
   margin-left: 300px;
 }
+
+.navbar-nav {
+  flex-direction: row;
+}
+.dropdown-menu {
+  position: absolute;
+}
+
+.nav-link {
+  padding-right: navbar-nav-link-padding-x;
+  padding-left: navbar-nav-link-padding-x;
+}
+
+.navbar-nav-scroll {
+  overflow: visible;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+}
+
+.navbar-toggler {
+  display: none;
+}
